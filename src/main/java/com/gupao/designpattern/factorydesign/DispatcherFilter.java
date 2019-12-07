@@ -5,7 +5,7 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
-//用来分派请求的filter
+//用来分派请求的filter1
 @WebFilter(filterName = "dispatcherFilter", urlPatterns = "/servlet/*")
 public class DispatcherFilter implements Filter {
 
